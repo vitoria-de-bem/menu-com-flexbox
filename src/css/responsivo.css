@@ -1,0 +1,42 @@
+@media (max-width: 500px) {
+    header {
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 10px;
+    }
+
+    .logo{
+      padding-bottom: 40px;
+    }
+
+    
+    .logo img {
+      width: 45px;
+      height: 42px;
+   }
+
+   .logo h1{
+     font-size: 35px;
+   }
+
+    .menu{
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      
+    }
+
+    .menu li{
+      padding: 10px;
+    }
+
+    .menu li a{
+      font-size: 30px;
+    }
+
+    .menu .btn{
+      font-size: 15px;
+      margin-top: 90px;
+    }
+
+}
